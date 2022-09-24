@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "./app.js": {
+      "runtime": "@vercel/node"
+    }
+  }
+}
