@@ -1,0 +1,39 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "A Pokemon API that contains Pokemon data from generation 1. This project was created so that I can get more hands-on experience with Node.js and Mongoose.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run server:dev",
+    "server:dev": "nodemon server.js",
+    "server:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "author": {
+    "name": "Gerardo Ortiz",
+    "email": "devgerardoortiz@gmail.com",
+    "url": "https://www.devgerardoortiz.com"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
