@@ -1,4 +1,5 @@
 import setStringPadding from './pad.js';
+import replaceStatEntries from './stats.js';
 
 class APIFeatures {
   constructor(query, queryString) {
@@ -7,10 +8,7 @@ class APIFeatures {
   }
 
   filter() {
-    const queryObject = { ...this.queryString };
-    const excludedFields = ['sort', 'fields'];
-
-    excludedFields.forEach((el) => delete queryObject[el]);
+    const queryObject = { ...replaceStatEntries({ ...this.queryString }) };
 
     if (queryObject.no) queryObject.no = setStringPadding(queryObject.no, 3, 0);
 
