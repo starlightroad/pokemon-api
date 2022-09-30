@@ -11,7 +11,7 @@
     "server:live": "NODE_ENV=production server.js"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": "16.x"
   },
   "author": {
     "name": "Gerardo Ortiz",
