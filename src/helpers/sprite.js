@@ -1,6 +1,6 @@
 const setSprite = function (doc) {
   const pokemonNumber = parseInt(doc.no, 10);
-  const url = '/static/sprites';
+  const url = '/static/img/sprites';
 
   return {
     redblue: `${url}/red-blue/${pokemonNumber}.png`,
