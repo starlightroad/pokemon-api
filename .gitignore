@@ -1,5 +1,12 @@
-node_modules
+# dependencies
+/node_modules
+/data
+
+# testing
+/tests
+
+# misc
 .env
-data
-tests
+config.env
 docs
+**/._*
