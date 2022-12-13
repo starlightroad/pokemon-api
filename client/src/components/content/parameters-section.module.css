@@ -1,0 +1,34 @@
+.heading {
+  color: var(--text-main-primary);
+}
+
+.parametersSection h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.article {
+  padding: 16px 0;
+}
+
+.articleHeader {
+  margin-bottom: 8px;
+  display: inline-flex;
+  gap: 12px;
+}
+
+.articleHeaderName {
+  font-weight: 600;
+}
+
+.articleHeaderName {
+  color: var(--text-main-primary);
+}
+
+.articleHeaderType {
+  color: var(--text-main-secondary);
+}
+
+.articleDescription {
+  color: var(--text-main-secondary);
+}

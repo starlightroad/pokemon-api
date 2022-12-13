@@ -1,0 +1,19 @@
+.contentContainer {
+  max-width: calc(992px - 64px);
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 52px;
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    position: relative;
+    left: 280px;
+    width: calc(100% - 280px);
+  }
+
+  .contentContainer {
+    padding: 20px 32px;
+  }
+}

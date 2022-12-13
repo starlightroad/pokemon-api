@@ -1,0 +1,34 @@
+.table {
+  background-color: transparent;
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.tableContainer {
+  margin-top: 32px;
+  padding-bottom: 4px;
+  background-color: var(--background-table);
+  border-radius: 8px;
+}
+
+.tableContent {
+  composes: scrollbar scrollbar-track scrollbar-thumb from 'assets/common.module.css';
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table td {
+  color: var(--text-main-secondary);
+}
+
+.table th {
+  color: var(--text-main-primary);
+}
+
+.table td,
+.table th {
+  padding: 12px;
+  border: 1px solid var(--border-secondary);
+  text-align: left;
+}

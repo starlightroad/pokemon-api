@@ -1,0 +1,72 @@
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  background-color: var(--background-sidebar);
+  position: fixed;
+  top: 0;
+  z-index: var(--z-index-sidebar);
+  transform: translate3d(-300px, 0, 0);
+  transition: transform 250ms ease;
+  will-change: transform;
+}
+
+.sidebarOpen {
+  transform: translate3d(0, 0, 0);
+}
+
+@media only screen and (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.sidebar h1 {
+  font-size: 14px;
+  color: var(--text-sidebar-primary);
+}
+
+.sidebar h2 {
+  font-size: 14px;
+  color: var(--text-sidebar-primary);
+}
+
+.sidebar p {
+  color: var(--text-sidebar-secondary);
+}
+
+.sidebar li {
+  font-size: 14px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--background-scrollbar);
+  border-radius: 4px;
+}
+
+.header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+  z-index: var(--z-index-sidebar-header);
+}
+
+.nav {
+  composes: scrollbar scrollbar-track scrollbar-thumb from 'assets/common.module.css';
+  height: calc(100vh - 149px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-right: 4px;
+  padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    padding-bottom: 120px;
+  }
+}

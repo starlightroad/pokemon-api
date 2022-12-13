@@ -1,0 +1,13 @@
+.listTabItem {
+  color: var(--text-tab-secondary);
+}
+
+.activeTab {
+  background-color: var(--background-tab);
+  padding: 8px 24px;
+  color: var(--text-tab-primary);
+}
+
+.hoverClass:hover {
+  background-color: var(--background-hover-primary);
+}

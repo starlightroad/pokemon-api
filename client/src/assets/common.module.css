@@ -1,0 +1,19 @@
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+}
+
+.scrollbar-track::-webkit-scrollbar-track {
+  margin: 4px;
+}
+
+.scrollbar-thumb::-webkit-scrollbar-thumb {
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--background-scrollbar);
+}
+
+.scrollbar-corner::-webkit-scrollbar-corner {
+  background-color: transparent;
+}

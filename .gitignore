@@ -8,5 +8,5 @@
 # misc
 .env
 config.env
-docs
+/docs
 **/._*

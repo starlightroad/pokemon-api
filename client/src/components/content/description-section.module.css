@@ -1,0 +1,7 @@
+.descriptionSection {
+  margin-bottom: 32px;
+}
+
+.descriptionSection p {
+  color: var(--text-main-secondary);
+}

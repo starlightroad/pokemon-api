@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "rules": {
+    "no-undef": "warn",
+    "no-console": "warn",
+    "prefer-destructuring": ["warn", { "object": true, "array": true }],
+    "prefer-spread": "warn"
+  }
+}
