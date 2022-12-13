@@ -1,6 +1,6 @@
 # Pokémon API
 
-A Pokemon API that contains Pokemon data from generation 1. This project was created so that I can get more hands-on experience with Node.js and Mongoose.
+A Pokemon API that contains Pokemon data from generation 1. This project was created so that I can get more hands-on experience with Node.js and Mongoose. [View the full documentation](https://pokemon-api.devgerardoortiz.com) for more information.
 
 ## Get all Pokemon
 
