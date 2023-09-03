@@ -7,7 +7,7 @@ import { NavBar } from "@/components/layouts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pokemon API",
+  title: "Next Pokemon",
   description: "Pokemon data at your fingertips.",
 };
 
