@@ -7,7 +7,6 @@ export const buttonStyles = cva(
     variants: {
       variant: {
         primary: "bg-slate-900 text-white shadow hover:bg-slate-900/90",
-        // primary: "bg-lime-300 text-slate-950 shadow hover:bg-lime-400/80",
         secondary: "bg-slate-200 shadow-sm hover:bg-slate-200/80",
         outline:
           "bg-transparent border border-slate-200 shadow-sm hover:bg-gray-50",
