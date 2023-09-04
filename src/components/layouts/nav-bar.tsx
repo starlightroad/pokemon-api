@@ -1,6 +1,7 @@
-import { topBarNavConfig } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
+
+import { topBarNavConfig } from "@/lib/constants";
 
 export default function NavBar() {
   return (
