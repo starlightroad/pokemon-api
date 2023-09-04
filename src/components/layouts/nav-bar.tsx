@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { siteConfig } from "@/lib/config";
 import { topBarNavConfig } from "@/lib/constants";
 
 export default function NavBar() {
@@ -56,7 +57,7 @@ export default function NavBar() {
             </svg>
           </span>
           <Link
-            href={"/github"}
+            href={siteConfig.links.github}
             className="p-1 hover:bg-slate-100 rounded-md text-slate-500"
           >
             GitHub
